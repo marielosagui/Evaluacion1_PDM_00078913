@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Newactivity">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:textColor="#000"
+        android:layout_gravity="center"/>
+
+
+
+    <TextView
+
+        android:id="@+id/tv_nameG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="email"
+        android:textColor="#000"
+        android:layout_gravity="center"/>
+
+
+
+
+
+
+    <TextView
+
+        android:id="@+id/tv_generoG"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text=" "/>
+
+
+<GridLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="358px"
+        android:layout_height="300px"
+        android:background="@color/naranja"
+        android:layout_column="0"
+        android:layout_gravity="center"
+        android:layout_row="0"
+        android:text=" PRODUCTO 1 "/>
+
+
+
+    <EditText
+        android:layout_width="358px"
+        android:background="@color/fucsia"
+        android:layout_height="300px"
+        android:layout_column="1"
+        android:layout_row="0"
+        android:text="   PRODUCTO 2 "/>
+
+
+
+    <EditText
+        android:layout_width="358px"
+        android:layout_height="300px"
+        android:background="@color/morado"
+        android:layout_column="2"
+        android:layout_row="0"
+        android:text=" PRODUCTO 3"/>
+
+
+
+    <EditText
+        android:layout_width="358px"
+        android:layout_height="300px"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:background="@color/blue"
+        android:text="PRODUCTO 4 "/>
+
+
+
+    <EditText
+        android:layout_width="358px"
+
+        android:layout_height="300px"
+        android:layout_column="1"
+        android:background="@color/azuloscu"
+        android:layout_row="1"
+        android:text="PRODUCTO 5"/>
+
+
+
+    <EditText
+        android:layout_width="358px"
+        android:layout_height="300px"
+        android:layout_column="2"
+        android:layout_row="1"
+        android:background="@color/celeste"
+        android:text="PRODUCTO 6 "/>
+
+
+
+    <EditText
+        android:layout_width="358px"
+        android:layout_height="300px"
+        android:layout_column="0"
+        android:layout_row="2"
+        android:background="@color/bluec"
+        android:text="PRODUCTO 7 "/>
+
+
+
+    <EditText
+        android:layout_width="358px"
+        android:layout_height="300px"
+        android:layout_column="1"
+        android:layout_row="2"
+        android:background="@color/green"
+        android:text="PRODCUTO 8"/>
+
+
+
+    <EditText android:layout_width="358px"
+
+        android:layout_height="300px"
+        android:layout_column="2"
+        android:layout_row="2"
+        android:background="@color/verdeoscu"
+        android:text="PRODUCTO 9"/>
+
+</GridLayout>
+    <Button
+
+        android:id="@+id/btn_share"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+
+        android:text="share"/>
+</LinearLayout>
