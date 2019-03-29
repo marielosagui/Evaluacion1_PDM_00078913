@@ -1,20 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:id="@+id/gridLay"
-    android:columnCount="3"
-    android:rowCount="3">
+    android:gravity="center"
+    android:orientation="vertical">
 
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Usuario"
+        android:textColor="#000"
+        android:layout_gravity="center"/>
+
+
+    <TextView
+
+        android:id="@+id/tv_nameG"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Escriba el usuario aqui" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Correo Electronico"
+        android:textColor="#000"
+        android:layout_gravity="center"/>
+
+
+    <TextView
+        android:id="@+id/tv_generoG"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:hint="Escriba su correo aqui " />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:background="#0ff"
+        android:text="ENVIAR" />
 
     <GridLayout
         android:layout_width="match_parent"
-        android:layout_height="342dp"
-        android:layout_row="3"
-        android:layout_column="2">
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
 
         <EditText
             android:layout_width="358px"
@@ -100,3 +136,5 @@
             android:text="PRODUCTO 9" />
 
     </GridLayout>
+
+</LinearLayout>

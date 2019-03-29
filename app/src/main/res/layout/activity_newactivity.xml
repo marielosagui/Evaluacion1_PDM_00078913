@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".Newactivity">
+    tools:context=".NewActivity">
 
     <TextView
 
@@ -35,24 +35,23 @@
 
 
 
-
-
+    <TextView
+        android:id="@+id/tv_generoG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Ingrese su correo"/>
 
     <TextView
-
-        android:id="@+id/tv_generoG"
-
-        android:layout_width="match_parent"
-
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
-        android:text=" "/>
-
-
+        android:text="Detalle de Productos"
+        android:textColor="#000"
+        android:textSize="32dp"
+        />
 <GridLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
+    
     <EditText
         android:layout_width="358px"
         android:layout_height="300px"
